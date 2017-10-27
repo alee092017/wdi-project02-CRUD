@@ -1,6 +1,6 @@
 # Outcomes Tracker app
 
-##Don't end up working with a bunch of monkeys like this guy👇
+Don't end up working with a bunch of monkeys like this guy👇
 ![I work with a bunch of fucking monkeys](https://i.imgur.com/CdDbrDT.jpg)
 
 1.  Basis of project:
@@ -37,8 +37,6 @@
          *  US DOL
          *  NY State DOL
          *  NYC.gov employment stats
-From the GA Outcomes Tracker:
-![Toolbox Page](https://i.imgur.com/80J7PCm.png)
 
 3.  Wireframes and Brief User Story:
 *  Homepage -- Basic look & feel from Tracker Overview in Outcomes doc-but will include navigation to:
@@ -48,8 +46,9 @@ From the GA Outcomes Tracker:
          *  Networking Page
          *  Resources Page
          *  Landscape page
-   *  Navigation will slide out like linkedin-insert image here.
 ![Homepage Basis](https://i.imgur.com/MpUYr6o.png)
+   *  Navigation will slide out like linkedin-insert image here.
+   ![Navigation a la linkedin](https://i.imgur.com/wizukkh.png)
 *  Toolbox Page:  From the GA Outcomes Tracker:
 ![Toolbox Page](https://i.imgur.com/80J7PCm.png)
 *  
