@@ -101,7 +101,7 @@ jobappsController.complete = (req, res) => {
   });
 };
 
-module.export = todosController
+module.export = jobappsController
 
 //for auth--do this after your regular controllers are writtten
 // flashcardsController.create = (req, res) => {
