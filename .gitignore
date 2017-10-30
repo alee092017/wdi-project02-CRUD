@@ -1,1 +1,5 @@
+es (4 sloc)  38 Bytes
+node_modules
 .env
+.DS_STORE
+*.DS_STORE

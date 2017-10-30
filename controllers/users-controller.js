@@ -1,9 +1,21 @@
+//checked, syntax correct, order correct, references correct.
+
 const bcrypt = require('bcryptjs');
-const User = require('../models/user.js');
+const User = require('../models/User.js'); //error User.js not capitalized.  also js not necessary
 
 const usersController = {};
 
-usersController.create = (req, res) => { ---->IS THIS S/B (req, res, option)<----
+usersController.index = (req, res) => {
+  res.json({
+    message: 'Put a user profile page on this route',
+    data: {
+      user: req.user,
+    },
+  });
+};
+
+usersController.create = (req, res) => {
+  // ---->IS THIS S/B (req, res, option)<----
   const salt = bcrypt.genSaltSync();
   const hash = bcrypt.hashSync(req.body.password, salt);
   User.create({
@@ -22,14 +34,5 @@ usersController.create = (req, res) => { ---->IS THIS S/B (req, res, option)<---
     res.status(500).json({error: err});
   });
 }
-
-usersController.index = (req, res) => {
-  res.json({
-    message: 'Put a user profile page on this route',
-    data: {
-      user: req.user,
-    },
-  });
-};
 
 module.exports = usersController;

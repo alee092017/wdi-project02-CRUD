@@ -1,10 +1,12 @@
+//checked.
+
 const options = {
   query: (e) => {
     console.log(e.query);
-  };
+  }
 };
 
-const pgp = requrie('pg-promise')(options);
+const pgp = require('pg-promise')(options);
 
 function setDb() {
   if (process.env.NODE_ENV === 'development' || !process.env.Node_Env) {
