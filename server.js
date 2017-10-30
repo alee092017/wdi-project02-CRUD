@@ -50,6 +50,11 @@ app.listen(PORT, () => {
 
 //require routes here
 
+const authRoutes = require('./routes/auth-routes');
+app.use('/auth', authRoutes);
+const userRoutes = require('./routes/user-routes');
+app.use('/user', userRoutes);
+
 app.use('*', (req,res) => {
   res.status(404).send('404 NOT FOUND');
 });
